@@ -297,13 +297,13 @@ document.querySelectorAll('a[href^="mailto"], a[href^="tel"], a[href*="linkedin.
         });
     });
 });
-
+/*
 // ===== WEB RESUME LINK FUNCTIONALITY =====
 document.getElementById('web-resume-link').addEventListener('click', function(e) {
     e.preventDefault();
     // alert('Web resume link will be added here later.');
 });
-
+*/
 // ===== INITIALIZE EVERYTHING WHEN PAGE LOADS =====
 document.addEventListener('DOMContentLoaded', function() {
     setupDownloadProtection();
